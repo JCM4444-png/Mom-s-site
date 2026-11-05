@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" role="img" aria-labelledby="t">
+  <title id="t">DB Cattery, Maine Coons in Daytona Beach</title>
+  <!-- Mark: a window arch with the sun rising over the Atlantic and a tufted Maine Coon head -->
+  <g transform="translate(6 6)">
+    <path d="M4 128V64a60 60 0 0 1 120 0v64z" fill="#1F6673"/>
+    <circle cx="64" cy="88" r="46" fill="#D9B45A"/>
+    <path d="M4 104h120v24H4z" fill="#174E58"/>
+    <path fill="#F2F5F4" fill-rule="evenodd" d="M36 128L30 116L35 113L29 102L34 98L33 84L40 46L39 36L44 48L52 62H76L84 48L89 36L88 46L95 84L94 98L99 102L93 113L98 116L92 128ZM48 86q6-5 12 0q-6 5-12 0ZM80 86q-6-5-12 0q6 5 12 0ZM59 97h10l-5 5Z"/>
+  </g>
+  <text x="152" y="80" font-family="Caprasimo, Georgia, serif" font-size="58" fill="#1E2B33">DB Cattery</text>
+  <text x="154" y="116" font-family="'Atkinson Hyperlegible', Arial, sans-serif" font-size="22" fill="#4B6170">Maine Coons in Daytona Beach</text>
+</svg>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kittens | DB Cattery</title>
+  <meta name="description" content="Maine Coon kitten availability, upcoming litters and the waitlist at DB Cattery in Daytona Beach, Florida.">
+  <link rel="icon" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Caprasimo&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="kittens">
+<main id="main">
+
+  <header class="page-head">
+    <div class="wrap">
+      <h1>Kittens</h1>
+      <p>We don't have any kittens available right now. Our first litters are being planned, and the waitlist is open.</p>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top: 1.5rem">
+    <div class="wrap">
+      <div class="empty">
+        <h3>No kittens available yet</h3>
+        <p>When a litter arrives, each kitten will get its own photos, updates and details on this page. Want first notice? Join the waitlist below.</p>
+        <p><a class="btn" href="#waitlist">Join the waitlist</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--fog">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>What a Maine Coon kitten looks like</h2>
+        <p>These are example photos of Maine Coon kittens, not ours. Photos of our own litters will replace them.</p>
+      </div>
+      <div class="kitten-strip">
+        <!-- Placeholder photos from Wikimedia Commons. Replace with our own kittens when the first litter arrives. -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Maine_Coon_Kitten.jpg/960px-Maine_Coon_Kitten.jpg" alt="Example photo of a Maine Coon kitten" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/20141228_Maine_Coon_Kitten.JPG/960px-20141228_Maine_Coon_Kitten.JPG" alt="Example photo of a Maine Coon kitten" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Maine_Coon_kitten.jpg/960px-Maine_Coon_kitten.jpg" alt="Example photo of a Maine Coon kitten" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Maine_Coon_kittens_NO_Sigdalskauen.jpg/960px-Maine_Coon_kittens_NO_Sigdalskauen.jpg" alt="Example photo of Maine Coon kittens" loading="lazy">
+      </div>
+      <p class="muted" style="font-size: var(--step--1); margin-top: 1rem">Example photos via Wikimedia Commons: public domain; H.U. Graedener (CC BY-SA 4.0); Pawelkula83 (CC BY 3.0); T. Bjornstad (CC BY-SA 4.0).</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How reserving a kitten works</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Join the waitlist</h3>
+          <p>Send us a quick email with your name and what you're hoping for.</p>
+        </li>
+        <li>
+          <h3>Hear about litters</h3>
+          <p>We email everyone on the list when a litter is born, with photos.</p>
+        </li>
+        <li>
+          <h3>Reserve your kitten</h3>
+          <p>Meet the kittens on video or in person, then choose. Deposit details coming soon.</p>
+        </li>
+        <li>
+          <h3>Bring them home</h3>
+          <p>Kittens go home at around 12 to 14 weeks, once they're ready.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--fog">
+    <div class="wrap split">
+      <div>
+        <h2>What comes home with your kitten</h2>
+        <ul class="ticks">
+          <li>A veterinary health check and records of any vaccinations</li>
+          <li>A small bag of the food they're used to eating</li>
+          <li>A blanket that smells like mom and their littermates</li>
+          <li>Our phone number, for any question, any time</li>
+        </ul>
+      </div>
+      <img class="photo" src="assets/img/cats/roxy-4-sm.jpg" alt="Roxy curled up on a table, her plumed tail wrapped around her" loading="lazy" style="max-height: 30rem; object-fit: cover">
+    </div>
+  </section>
+
+  <section class="section section--dune cta-band" id="waitlist">
+    <div class="wrap">
+      <div>
+        <h2>Join the waitlist</h2>
+        <p>Email us with your name, where you live, and whether you'd like a boy or a girl. We'll add you to the list and write back.</p>
+      </div>
+      <a class="btn" id="waitlist-btn" href="mailto:hello@example.com?subject=Kitten%20waitlist">Email us to join</a>
+    </div>
+  </section>
+
+</main>
+<script src="assets/js/site.js"></script>
+<script>
+  // Keep the waitlist email in step with the address set in site.js
+  document.getElementById("waitlist-btn").href = `mailto:${SITE.email}?subject=Kitten%20waitlist`;
+</script>
+</body>
+</html>

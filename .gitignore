@@ -1,0 +1,11 @@
+# Original phone photos and videos (over 500 MB, and one video is past
+# GitHub's 100 MB file limit). The site uses the web-sized copies in site/assets/.
+Media/
+
+# Personal Claude Code settings
+.claude/settings.local.json
+
+# System files
+Thumbs.db
+desktop.ini
+.DS_Store
